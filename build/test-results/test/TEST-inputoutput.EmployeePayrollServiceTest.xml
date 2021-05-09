@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="inputoutput.EmployeePayrollServiceTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-05-09T11:27:42" hostname="MRUNAL" time="0.114">
+<testsuite name="inputoutput.EmployeePayrollServiceTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-05-09T11:53:50" hostname="MRUNAL" time="0.091">
   <properties/>
-  <testcase name="givenPathCheckedThenConfirm()" classname="inputoutput.EmployeePayrollServiceTest" time="0.114"/>
+  <testcase name="givenPathCheckedThenConfirm()" classname="inputoutput.EmployeePayrollServiceTest" time="0.091"/>
   <system-out><![CDATA[C:\Users\AZ\IdeaProjects\Java_IO_Program\TempPlayGround\temp1
 C:\Users\AZ\IdeaProjects\Java_IO_Program\TempPlayGround\temp2
 C:\Users\AZ\IdeaProjects\Java_IO_Program\TempPlayGround\temp3
