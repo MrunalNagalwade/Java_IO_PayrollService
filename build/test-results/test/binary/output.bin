@@ -1,0 +1,3 @@
+?EmployeePayrollData{id=1, name='jelf Bezos', salary=200000.0}
+?EmployeePayrollData{id=2, name='Bill Gates', salary=300000.0}
+EEmployeePayrollData{id=3, name=' Mark Zuckerbarg', salary=400000.0}

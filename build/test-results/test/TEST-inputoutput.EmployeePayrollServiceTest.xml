@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="inputoutput.EmployeePayrollServiceTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-05-09T12:00:42" hostname="MRUNAL" time="0.068">
+<testsuite name="inputoutput.EmployeePayrollServiceTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-05-09T12:11:26" hostname="MRUNAL" time="0.083">
   <properties/>
-  <testcase name="given3EmployeesWhenWrittenToFileShouldMatchEmployeeEntries()" classname="inputoutput.EmployeePayrollServiceTest" time="0.068"/>
-  <system-out><![CDATA[]]></system-out>
+  <testcase name="given3EmployeesWhenWrittenToFileShouldMatchEmployeeEntries()" classname="inputoutput.EmployeePayrollServiceTest" time="0.083"/>
+  <system-out><![CDATA[EmployeePayrollData{id=1, name='jelf Bezos', salary=200000.0}
+EmployeePayrollData{id=2, name='Bill Gates', salary=300000.0}
+EmployeePayrollData{id=3, name=' Mark Zuckerbarg', salary=400000.0}
+]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
