@@ -6,6 +6,7 @@ import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
+import java.util.Arrays;
 import java.util.stream.IntStream;
 
 public class EmployeePayrollServiceTest {
@@ -48,5 +49,17 @@ public class EmployeePayrollServiceTest {
                 .forEach(System.out::println);
         new EmployeeWatchService(dir).processEvents();
 
+    }
+    @Test
+    public void given3EmployeesWhenWrittenToFileShouldMatchEmployeeEntries()
+    {
+        EmployeePayrollData[] arrayOfEmps = {
+                new EmployeePayrollData(1,"jelf Bezos", 200000.0),
+                new EmployeePayrollData(2, "Bill Gates", 300000.0),
+                new EmployeePayrollData(3, " Mark Zuckerbarg", 400000.0)
+        };
+        EmployeePayrollService employeePayrollServices;
+        employeePayrollServices = new EmployeePayrollService(Arrays.asList(arrayOfEmps));
+        employeePayrollServices.writeEmployeePayrollData(EmployeePayrollService .IOService.FILE_IO);
     }
 }
